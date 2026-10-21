@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0e2019">
+<meta name="description" content="Политика конфиденциальности SmokeStep: учёт курения, локальные данные, уведомления и резервные копии.">
+<title>Политика конфиденциальности — SmokeStep</title>
+<style>
+:root{color-scheme:dark;--bg:#0c1916;--panel:#163025;--line:#345142;--txt:#eaf4ec;--muted:#b7cabe;--accent:#b9e6a4}*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(ellipse at 0 0,#214833,transparent 46%),var(--bg);font:16px/1.75 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--txt)}
+a{color:var(--accent);text-underline-offset:3px}a:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+header,main,footer{max-width:860px;margin:0 auto;padding-left:clamp(20px,5vw,42px);padding-right:clamp(20px,5vw,42px)}
+header{padding-top:44px;padding-bottom:22px}.brand{font-size:22px;font-weight:800;letter-spacing:.01em}.brand span{display:inline-grid;place-items:center;width:36px;height:36px;border-radius:12px;margin-right:10px;background:linear-gradient(140deg,#addb91,#467957);color:#0e2019}
+.kicker{color:var(--accent);font-weight:700;font-size:12px;text-transform:uppercase;letter-spacing:.13em;margin-top:30px}h1{font-size:clamp(30px,5.8vw,48px);letter-spacing:-.035em;line-height:1.15;margin:8px 0 16px}
+h2{font-size:clamp(20px,3vw,25px);line-height:1.35;margin:0 0 14px}p{margin:0 0 14px}p:last-child{margin-bottom:0}li{margin-bottom:6px}
+.lead,.muted{color:var(--muted)}.lead{font-size:18px;max-width:70ch}.meta{font-size:14px;margin-top:22px;color:var(--muted)}
+.intro{padding:22px;background:linear-gradient(135deg,#234833,var(--panel));border:1px solid var(--line);border-radius:16px}
+nav{border:1px solid var(--line);border-radius:16px;padding:17px 24px;margin:22px 0}nav ol{padding-left:25px;columns:2;column-gap:25px}
+section{padding:27px 0;border-bottom:1px solid var(--line)}main{padding-bottom:45px}
+.warning{padding:12px 16px;border-left:3px solid var(--accent);background:#1a3028;border-radius:0 8px 8px 0}
+footer{border-top:1px solid var(--line);padding-top:22px;padding-bottom:38px;color:var(--muted);font-size:14px}
+.skip{position:absolute;top:-100px;left:10px;background:var(--accent);color:#102116;padding:9px}.skip:focus{top:10px}
+@media(max-width:540px){nav ol{columns:1}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">К содержанию</a>
+<header><div class="brand"><span aria-hidden="true">S</span>SmokeStep</div>
+<div class="kicker">Данные и конфиденциальность</div><h1>Политика конфиденциальности</h1>
+<p class="lead">Как SmokeStep обрабатывает историю курения, параметры плана и другие сведения на устройстве.</p>
+<div class="meta">Редакция от <time datetime="2026-10-21">21 октября 2026 года</time> · Русский язык</div></header>
+<main id="main">
+<div class="intro"><strong>Коротко:</strong> SmokeStep сохраняет историю курения и настройки локально на телефоне; не требует аккаунта и не отправляет историю разработчику автоматически. Экспорт резервной копии выполняется вручную. Экспортируемый JSON-файл не зашифрован.</div>
+<nav aria-label="Содержание"><strong>Содержание</strong><ol>
+<li><a href="#developer">Разработчик и контакты</a></li><li><a href="#data">Обрабатываемые данные</a></li>
+<li><a href="#purpose">Цели обработки</a></li><li><a href="#storage">Хранение и передача</a></li>
+<li><a href="#backup">Резервные копии</a></li><li><a href="#notifications">Уведомления</a></li>
+<li><a href="#delete">Сроки и удаление</a></li><li><a href="#contact">Обращения</a></li>
+<li><a href="#health">Здоровье</a></li><li><a href="#changes">Изменения и сайт</a></li>
+</ol></nav>
+<section id="developer"><h2>1. Разработчик и контакты</h2>
+<p>SmokeStep — приложение для самостоятельного контроля курения и постепенного отказа от него. Идентификатор Android-приложения: <code>ru.smokestep.app</code>.</p>
+<p>Разработчик и ответственное контактное лицо: <strong>Поляков Валерий Олегович</strong>. Адрес электронной почты для связи: <a href="mailto:steamrosusa@gmail.com">steamrosusa@gmail.com</a>.</p></section>
+<section id="data"><h2>2. Какие сведения обрабатываются</h2><ul>
+<li>Отображаемое имя, исходный уровень курения, выбранная дата отказа, время бодрствования и сна, интервалы и плановые лимиты.</li>
+<li>Записи о курении, даты, временные метки, часовые пояса, аннулированные записи и причины исправлений.</li>
+<li>Отмеченные моменты фактического отказа или срыва, параметры дыхательных упражнений, достижения, статистика и настройки уведомлений.</li>
+<li>Содержимое файла резервной копии — только если пользователь сам инициирует экспорт или восстановление.</li>
+</ul><p>Эти данные могут касаться привычек и здоровья. Пользователю не следует вводить сведения, не нужные для работы приложения.</p></section>
+<section id="purpose"><h2>3. Для чего используются сведения</h2>
+<p>Для расчёта персонального плана снижения курения, показа истории, статистики, достижений, поддержки во время тяги, необязательных напоминаний, исправления записей и ручного резервного копирования.</p></section>
+<section id="storage"><h2>4. Где хранятся данные и кому передаются</h2>
+<p>В текущей версии данные хранятся на самом Android-устройстве с использованием Room/SQLite и DataStore. SmokeStep не требует регистрации, не использует рекламные или аналитические SDK и не реализует автоматическую отправку истории курения на сервер разработчика.</p>
+<p>Действия операционной системы, магазина приложений и отдельно выбранных пользователем облачных сервисов регулируются их собственными условиями.</p></section>
+<section id="backup"><h2>5. Резервное копирование</h2>
+<p>Пользователь может вручную создать JSON-копию через системный диалог Android и самостоятельно выбрать место хранения. При выборе стороннего или облачного хранилища файл становится доступен в рамках правил этого сервиса.</p>
+<p class="warning"><strong>Важно:</strong> резервная копия не зашифрована и может содержать историю курения, план и настройки. Храните её защищённо и не передавайте посторонним.</p>
+<p>Восстановление из копии производится после подтверждения пользователя и заменяет существующие локальные данные.</p></section>
+<section id="notifications"><h2>6. Уведомления</h2>
+<p>SmokeStep может показывать необязательные напоминания и сообщения о достижениях. На Android, где это требуется, используется разрешение <code>POST_NOTIFICATIONS</code>. Его можно не выдавать или отозвать в настройках устройства. Основные функции продолжат работать.</p>
+<p>Тексты уведомлений могут видеть другие люди, имеющие доступ к экрану телефона.</p></section>
+<section id="delete"><h2>7. Сроки хранения и удаление</h2>
+<p>Локальные данные сохраняются до их удаления пользователем. Для полной очистки используйте: <strong>Настройки Android → Приложения → SmokeStep → Хранилище → Очистить данные</strong>. Удаление приложения также обычно удаляет его локальные данные.</p>
+<p>Экспортированные JSON-файлы нужно удалять отдельно из места их сохранения, включая облачное хранилище. Разработчик не имеет доступа к локальным записям и не может удалить их удалённо. Учётной записи SmokeStep нет.</p></section>
+<section id="contact"><h2>8. Обращения</h2>
+<p>По вопросам данных или работы SmokeStep обращайтесь по адресу <a href="mailto:steamrosusa@gmail.com">steamrosusa@gmail.com</a>. Если вы сами отправляете письмо, указанные в нём сведения и обратный адрес обрабатываются для рассмотрения обращения и ответа с использованием почтового сервиса. Не прикладывайте свою историю курения без необходимости.</p></section>
+<section id="health"><h2>9. Информация о здоровье</h2>
+<p>SmokeStep предназначен для самонаблюдения и поддержки отказа от курения. Это не медицинское изделие, не инструмент диагностики и не гарантия лечения или отказа от никотина. Сведения о восстановлении организма носят образовательный характер и не заменяют врача.</p></section>
+<section id="changes"><h2>10. Изменения политики и сайт</h2>
+<p>При изменении функций приложения или способов обработки сведений документ обновляется с новой датой редакции.</p>
+<p>Веб-страница размещается через GitHub Pages. При её просмотре браузер передаёт хостингу технические сетевые данные. На самой странице нет рекламных скриптов, сторонней аналитики или форм сбора данных. <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener noreferrer" target="_blank">Политика конфиденциальности GitHub</a>.</p></section>
+</main><footer>SmokeStep · 21.10.2026 · Поляков Валерий Олегович · <a href="mailto:steamrosusa@gmail.com">steamrosusa@gmail.com</a></footer>
+</body></html>
